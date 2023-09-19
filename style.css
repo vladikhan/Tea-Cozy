@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #241305;
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  font-size: 17px;
+  text-align: center;
+}
+
+a {
+  color: goldenrod;
+}
+a:hover {
+  color: #fff8dc;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+h1 {
+  font-size: 33px;
+}
+h2 {
+  font-size: 23px;
+}
+h3 {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0 0 10px 0;
+}
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  background-color: #582b0b;
+  height: 69px;
+  padding: 8px 10px;
+  z-index: 1;
+  border-bottom: 2px solid seashell;
+  align-items: center;
+  position: fixed;
+}
+img {
+  border-radius: 15px;
+}
+header img {
+  height: 50px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav a {
+  margin: 0 15px 0 0;
+}
+
+/* Main section */
+
+main {
+  padding: 70px 0 0 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Mission session */
+
+#mission {
+  min-height: 700px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*bjbkmo*_ga*MzgwMTIwNzE0Mi4xNjg5MDg5Mzc5*_ga_3LRZM6TM9L*MTY5Mzc4NzQ3NC43My4xLjE2OTM3ODg0MzYuNTcuMC4w');
+  margin: 0 0 20px 0;
+  border-radius: 18px;
+}
+
+#mission .banner {
+  margin: auto 0;
+  background-color: #241305;
+  width: 100%;
+  opacity: 0.9;
+
+  /* Store Section */
+}
+#store {
+  margin: 0 0 20px 0;
+}
+.item {
+  margin: 0 0 10px 0;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+.item p {
+  font-weight: bold;
+}
+
+/* Location Sections */
+
+#locations {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*bjbkmo*_ga*MzgwMTIwNzE0Mi4xNjg5MDg5Mzc5*_ga_3LRZM6TM9L*MTY5Mzc4NzQ3NC43My4xLjE2OTM3ODg0MzYuNTcuMC4w');
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 18px;
+}
+#locations h2 {
+  margin: 0 0 5px 0;
+}
+
+.location {
+  padding: 10px 0 20px 0;
+  margin: 10px 20px;
+  background-color: rgb(7, 26, 65);
+  min-width: 280px;
+  border-radius: 18px;
+}
+
+/* <!-- Contact Sections --> */
+#contact {
+  min-height: 200px;
+}
+footer {
+  margin: 20px;
+  /* text-align: left; */
+}
